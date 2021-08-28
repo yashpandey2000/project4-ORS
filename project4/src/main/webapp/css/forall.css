@@ -1,0 +1,84 @@
+@import"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+BODY {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+     padding: 0;
+    margin: 0;
+   
+}
+
+
+H1 {
+    color: grey;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+TH {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+TD {
+    
+    font-weight: normal;
+    font-size: 16px;
+   
+}
+
+INPUT {
+    padding: 5px;
+    border-radius: 5px;
+    border-left-width: 10px;
+    border-color: rgb(180, 180, 180);
+}
+
+SELECT {
+    padding: 5px;
+    border-radius: 5px;
+    color:grey;
+    border-left-width: 10px;
+}
+
+INPUT[type=button],
+INPUT[type=reset],
+INPUT[type=submit] {
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* Error message */
+
+.error {
+    font-weight: normal;
+    font-size: 12px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Success message */
+
+.success {
+    font-weight: bold;
+    font-size: 16px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.input-icons i {
+position: absolute;
+color: black;
+padding: 7px;
+}
+
